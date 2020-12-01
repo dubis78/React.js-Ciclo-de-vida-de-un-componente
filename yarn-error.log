@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /opt/yarn-v1.17.3/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Unknown system error -122: Unknown system error -122, copyfile '/home/runner/.cache/yarn/v4/npm-@babel-code-frame-7.8.3-33e25903d7481181534e12ec0a25f16b6fcf419e/node_modules/@babel/code-frame/package.json' -> '/home/runner/Reactjs-Ciclo-de-vida-de-un-componente/node_modules/@babel/code-frame/package.json'
+
+npm manifest: 
+  {
+    "name": "react-test",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.8.2",
+      "react-dom": "^16.8.2",
+      "react-scripts": "2.1.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
