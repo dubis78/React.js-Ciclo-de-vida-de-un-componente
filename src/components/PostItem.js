@@ -4,23 +4,23 @@ import PropTypes from "prop-types";
 class PostItem extends React.Component {
   constructor() {
     super();
-    console.log("constructor ejecutado");
+    console.log("constructor ejecutado.");
   }
   componentDidMount() {
-    console.log("componentDidMount ejecutado");
+    console.log("componentDidMount ejecutado.");
   }
   componentDidUpdate(prevProps, prevState, snapshot) {
-    console.log("componentDidUpdate ejecutado");
+    console.log("componentDidUpdate ejecutado.");
   }
   componentWillUnmount() {
-    console.log("componentWillUnmount ejecutado");
+    console.log("componentWillUnmount ejecutado.");
   }
   onDelete = e => {
     e.preventDefault();
     this.props.onDelete(this.props.post);
   };
   render() {
-    console.log("render ejecutado");
+    console.log("render ejecutado.");
     return (
       <div>
         <h1>{this.props.post.title}</h1>
